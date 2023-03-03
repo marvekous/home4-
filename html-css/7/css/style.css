@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    color: rgb(134, 128, 128);
+    
+}
+
+.container2 {
+    width: 45%;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: auto;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-left: 15px;
+}
+
+.container2 .menu2 {
+    width: 100%;
+    height: 285px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.container2 .menu2 h1 {
+    top: 205px;
+}
+
+.container2 .menu3 {
+    width: 100%;
+    height: 285px;
+    margin-top: 28px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.container2 .menu3 h1 {
+    top: 205px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s all linear;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.col{
+ bottom: 100px;
+    width: 50%;
+    height: 595px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.3s all linear;
+}
+.col h1{
+    top: 500px;
+}
+.col img {
+    height: 594px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s all linear;
+
+}
+
+.col:hover img {
+    transform: scale(1.3);
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.container2 .menu2:hover img {
+    transform: scale(1.3);
+}
+
+.container2 .menu3:hover img {
+    transform: scale(1.3);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    width: 45%;
+    height: 595px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.3s all linear;
+}
+
+.menu h1 {
+    top: 500px;
+}
+
+.menu img {
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s all linear;
+
+}
+
+.menu1 {
+    width: 45%;
+    height: 600px;
+    margin-top: 50px;
+    margin-right: auto;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-left: 15px;
+}
+
+.menu1 .blok1 {
+    width: 100%;
+    height: 285px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.menu1 .blok1 h1 {
+    top: 205px;
+}
+
+.menu1 .blok2 {
+    width: 100%;
+    height: 285px;
+    margin-top: 28px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.menu1 .blok2 h1 {
+    top: 205px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s all linear;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.menu:hover img {
+    transform: scale(1.3);
+}
+
+h1 {
+    position: absolute;
+
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+.menu1 .blok1:hover img {
+    transform: scale(1.3);
+}
+
+.menu1 .blok2:hover img {
+    transform: scale(1.3);
+}
+@media(max-width:1200px){
+.po{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.container2{
+    width: 100%  !important;
+
+}
+
+
+   
+}
+@media(max-width:750px){
+    .container{
+        width: 100%;
+        flex-direction:column;
+    }
+
+}
