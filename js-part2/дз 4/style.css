@@ -3,117 +3,65 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 .container{
-    display: flex;
-   flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
+margin: 50px auto;
 }
+
+
 #data1{
-    width: 21%;
+ margin-left: 1%;
+padding: 20px;
+line-height: 40px;
+border: 1px solid rgb(212, 150, 14);
+width: 20%;
+border-radius: 10px;
+}
+h2{
     text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 10px;
-line-height: 20px;
-border-radius: 20px;
-margin: 10px auto;
 }
 #data2{
+    margin-left: 5%;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 20px;
     width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    border: 1px solid rgb(212, 150, 14);
 }
 #data3{
+    padding: 20px;
+    margin-left: 5%;
+    line-height: 40px;
+    border-radius: 10px;
     width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    border: 1px solid rgb(212, 150, 14);
+
 }
 #data4{
+    margin-left: 5%;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 10px;
     width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    border: 1px solid rgb(212, 150, 14);
 }
 #data5{
-    width: 21%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    margin: 20px auto;
+    margin-left: 10px;
+    width: 20%;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid   rgb(212, 150, 14);
 }
 #data6{
+    margin: 20px auto;
+    margin-left: 50%;
+    padding: 20px;
+    line-height: 40px;
+    border-radius: 10px;
     width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
+    border: 1px solid rgb(212, 150, 14);
 }
-#border7{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin:10px auto;
-border-radius: 20px;
-}
-#border8{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin:10px auto;
-border-radius: 20px;
-}
-#border9{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border10{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border11{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-#border12{
-    width: 20%;
-    text-align: center;
-    border: 2px solid rgb(206, 57, 12);
-    padding: 15px;
-line-height: 20px;
-margin: 10px auto;
-border-radius: 20px;
-}
-
-
